@@ -1,0 +1,191 @@
+body{
+    color: white;
+    background-color: rgb(13, 2, 54);
+    margin-bottom: 200px;
+    clear:both;
+    padding-bottom: 100px;
+    min-height: 540px;
+}
+
+#header{
+    background-color: darkblue;
+    height: 75px;
+    border-bottom: blue solid 5px;
+}
+
+#menuBtn{
+    background-color:blue;
+}
+
+.login-container{
+    height: 300px;
+    z-index: 10;
+    border-style: solid;
+    border-width: 6px;
+    border-radius: 10px;
+    border-color: blue;
+    background-color: darkblue;
+    margin-left: 100px;
+    margin-top: -6px;
+}
+
+.login-container > div > input{
+    width: 66%;
+    margin-left: 16%;
+    margin-bottom: 40px;
+}
+
+.login-container > div > button{
+    width: 50%;
+    margin-left: 25%;
+}
+
+#pageContent{
+    z-index: 1;
+    position: absolute;
+    top: 75px;
+    left: 10px;
+}
+
+#menu{
+    background-color:darkblue; 
+    width:300px;
+    height:100%; 
+    z-index:20; 
+    position:fixed;
+    top:69px;
+    border-right-style: solid;
+    border-right-color: blue;
+    border-right-width: 4px;
+    border-top-style: solid;
+    border-top-color: blue;
+    border-top-width: 4px;
+    border-top-right-radius: 40px;
+}
+
+.linkItems{
+    background-color: blue;
+    margin-top: 35px;
+    height: 50px;
+    width: 104%;
+    border-top:rgb(13, 2, 54) solid 4px;
+    border-bottom: rgb(13, 2, 54) solid 4px;
+}
+
+#menu > :first-child{
+    margin-top: 150px;
+}
+
+.linkItems > a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+
+.mid_con{
+    width: 33%;
+    margin-top: 80px;
+    border: blue solid 4px;
+    border-radius: 20px;
+}
+.containerSignup > center > .row{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 80%;
+    white-space: normal;
+    margin-top: 25px;
+}
+.right_img{
+    width: 33%;
+    transform: scaleX(-1);
+}
+
+.left_img{
+    width: 33%;
+    min-width: 33%;
+    margin-left: -10px;
+}
+
+.fullRow{
+    min-width: 100%;
+}
+
+#confirmSignUp{
+    background-color: blue;
+    box-shadow: none;
+}
+
+.leaderboardRow{
+    width: 200vh;
+}
+
+.rightLeader {
+    max-width: 33%;
+}
+
+.midLeader{
+    max-width: 33%;
+}
+
+.leftLeader{
+    max-width: 33%;
+    transform: scaleX(-1);
+    margin-left: -110px;
+}
+
+td{
+    border: blue solid 4px;
+    min-width: 50%;
+    text-align: center;
+    height: 30px;
+}
+
+tr{
+    width: 100%;
+}
+
+table{
+    min-width: 100%;
+}
+
+.PageTitle{
+    color: blue;
+    font-size: 50px;
+}
+
+h2{
+    color: blue;
+}
+
+ul{
+    margin-top: 40px;
+    margin-bottom: 60px;
+    list-style: disc;
+}
+
+#prevGame{
+    border: blue solid 3px;
+}
+
+.leftFoot{
+    text-align: center;
+}
+
+.rightFoot{
+    margin-top: 20px;
+    text-align: center;
+}
+
+#footer{
+    position:fixed;
+    bottom:0;
+    width: 100%;
+    background-color: darkblue;
+    border-top: blue solid 4px;
+    height:90px;
+    z-index: 15;
+}
+
+.bottFoot{
+    text-align: center;
+}

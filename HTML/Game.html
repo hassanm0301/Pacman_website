@@ -1,0 +1,38 @@
+
+<!DOCTYPE html>
+
+<head>
+    <title>
+        Canvas
+    </title>
+</head>
+
+<body>
+    <div class="col-2" style="position:fixed; left: 20%;">
+        <canvas id="canvasBG" style="position: absolute; fill:black;"></canvas>
+        <canvas id="canvasGame" style="position: absolute;"></canvas>
+        <canvas id="canvasGhost" style="position: absolute;"></canvas>
+        <img id="gameOverimg" src="img/gameOver.png" style="position: absolute; padding-top: 220px;margin-left: -35px; display:none;">
+    </div>
+    <div class="col-2" style="position: fixed; margin-left: 65%;padding-top: 20%;">
+        <div class="row">
+            <p id="score"></p>
+        </div>
+        
+        <div class="row">
+            <p id="time">Time: 0</p>
+        </div>
+
+        <div class="row">
+            <p id="totalScore" style="font-size: 40px; color:yellow;"></p>
+        </div>
+        
+    </div>
+    
+    <script src="js/Board.js"></script>
+    <script src="js/Components.js"></script>
+    <script src="js/Pacman.js"></script>
+    <script src="js/Game.js"></script>
+    
+
+</body>
